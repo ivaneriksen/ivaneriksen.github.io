@@ -1,0 +1,22 @@
+:root {
+    --accent: #4a7fc1;
+}
+
+body {
+    background-color: #343a40;
+}
+
+.card {
+    background-color: #2b3035;
+    border-radius: 0.75rem;
+}
+
+.tool-card {
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+    .tool-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
+        border-color: var(--accent);
+    }
